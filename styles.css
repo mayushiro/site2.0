@@ -1,0 +1,434 @@
+@font-face{
+    font-family: 'Cyberpunk';
+    src: url(fonts/cybershrift.ttf);
+         url(fonts/cybershrift.ttf) format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DangerFlightCondital';
+    src: url(fonts/dangerflightcondital.ttf);
+         url(fonts/dangerflightcondital.ttf) format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DangerFlightExpanded';
+    src: url(fonts/dangerflightexppand.ttf);
+         url(fonts/dangerflightexppand.ttf) format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BulletFont';
+    src: url(fonts/bulletfont.ttf);
+         url(fonts/bulletfont.ttf) format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url(fonts/helvetica.otf);
+         url(fonts/helvetica.otf) format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+    height: 100vh;
+    background-image: url("./images/metall.jpg");
+}
+
+.header {
+    position: relative;
+    width: 100vw;
+    height: inherit;
+}
+
+.image_header {
+    width: 100vw;
+    height: 56.27vw;
+}
+
+.before_logo_blue {
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    font-family: "DangerFlightCondital";
+    color: #57bcc4;
+    font-size: 80px;
+    letter-spacing: 8px;
+    /*line-height: 20.0px;*/
+    font-weight: 1000;
+    text-align: center;
+}
+
+.before_logo_black {
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    font-family: "DangerFlightCondital";
+    color: #000000;
+    font-size: 80px;
+    letter-spacing: 8px;
+    /*line-height: 20.0px;*/
+    font-weight: 1000;
+    text-align: center;
+}
+
+.after_logo_blue {
+    position: absolute;
+    top: 25%;
+    right: 15%;
+    font-family: "Cyberpunk";
+    color: #57bcc4;
+    font-size: 50px;
+    font-weight:600;
+}
+
+.after_logo_black {
+    position: absolute;
+    top: 25%;
+    right: 15%;
+    font-family: "Cyberpunk";
+    color: #000000;
+    font-size: 50px;
+    font-weight:600;
+}
+
+.countdown {
+    display: flex;
+    position:absolute;
+    color: #000000;
+    font-size: 65px;
+    z-index: 999;
+}
+
+.time-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #090808;
+    font-family: "DangerFlightCondital";
+    padding: 0 30px;
+    border-right: 5px solid #000000;
+    position:relative;
+    top: -380px;
+    left: 1030px;
+    font-size: 62px;
+    text-shadow: 3px 3px 3px #57bcc4;
+}
+
+.time-section:last-child {
+    border: none;
+    color: #090808;
+}
+.count {
+    font-size: 150px;
+}
+.units {
+    font-size: 30px;
+    position: static;
+}
+
+.line1 {
+    width: 100%;
+    max-height: 40%;
+    /*margin: 50px 0 0 50px; или какой захочешь*/
+}
+
+.picture_1 {
+    width: 50%;
+    float: left;
+    height: inherit;
+    max-height: 600px;
+    max-width: 900px;
+    /*position:absolute;*/
+    /*margin:50px 0px 0px 50px;*/
+}
+
+.line1_yellow_background {
+    text-align: center;
+    /*position: relative;*/
+    background-image: url("./images/moreyellow.png");
+    height: inherit;
+    max-height: 600px;
+}
+
+/*.picture_2 {*/
+/*    float: left;*/
+/*    width: 50%;*/
+/*    height: 100%;*/
+/*    margin:50px 0px 0px 950px;*/
+/*}*/
+
+.large-open-world {
+    /*position:absolute;*/
+    /*margin:65px 0px 0px 1090px;*/
+    /*font-size: 55px; сделать везде в em rem %*/
+    font-family: 'BulletFont';
+}
+
+.text_lop {
+    /*position:absolute;*/
+    /*margin:155px 0px 0px 980px;*/
+    /*font-size: 43px;*/
+    max-width:850px;
+    text-align: center;
+    font-family: "DangerFlightExpanded";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
